@@ -1,0 +1,10 @@
+services:
+  demo:
+    build:
+      context: .
+      target: runtime
+    image: authenticity-chain-demo
+    container_name: authenticity-chain-demo
+    ports:
+      - "${HOST_PORT:-8000}:8000"
+    restart: unless-stopped
