@@ -1,0 +1,20 @@
+# Kept local only
+PPT_PROMPT.md
+
+# Dependencies and build output (rebuilt with npm install / npm run build)
+node_modules/
+dist/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor, OS and secrets
+.DS_Store
+.env
+.env.*
+*.log
+.vite/
